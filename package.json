@@ -1,0 +1,35 @@
+{
+  "name": "@dwdht/bittorrent",
+  "version": "0.1.2",
+  "description": "Simple, robust, BitTorrent DHT implementation for the dWeb.",
+  "contributors": [
+    "Jared Rice Sr. <jared@dwebs.io>",
+    "Bench Computer, Inc. <legal@benchx.io>"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "browser": {
+    "dgram": "chrome-dgram/index.js",
+    "portfinder": "chrome-portfinder/index.js"
+  },
+  "dependencies": {
+    "bitfield": "~0.1.0",
+    "bncode": "~0.5.2",
+    "chrome-dgram": "2.x",
+    "chrome-portfinder": "0.x",
+    "compact2string": "~1.2.0",
+    "hat": "0.0.3",
+    "inherits": "~2.0.1",
+    "portfinder": "~0.2.1"
+  },
+  "devDependencies": {
+    "once": "1.x",
+    "tape": "2.x"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
