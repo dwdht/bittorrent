@@ -4,7 +4,7 @@ var test = require('tape')
 
 // TODO: Improve reliability by not using live network
 
-test('Find nodes (Pride & Prejudice)', function (t) {
+test('dWeb BitTorrent Tests: Find nodes (Pride & Prejudice)', function (t) {
   t.plan(2)
 
   var hash = '1E69917FBAA2C767BCA463A96B5572785C6D8A12' // Pride & Prejudice

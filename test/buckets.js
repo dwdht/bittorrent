@@ -1,7 +1,7 @@
 var Buckets = require('../buckets')
 var test = require('tape')
 
-test('Insert into bucket', function (t) {
+test('dWeb BitTorrent Tests: Insert into bucket', function (t) {
   t.plan(1)
 
   var Bucket = new Buckets()
@@ -12,7 +12,7 @@ test('Insert into bucket', function (t) {
   }
 })
 
-test('Remove a bucket', function (t) {
+test('dWeb BitTorrent Tests: Remove a bucket', function (t) {
   t.plan(1)
 
   var Bucket = new Buckets()
@@ -26,7 +26,7 @@ test('Remove a bucket', function (t) {
 
 })
 
-test('Split a bucket into two', function (t) {
+test('dWeb BitTorrent Tests: Split a bucket into two', function (t) {
   t.plan(1)
 
   var Bucket = new Buckets()
@@ -40,7 +40,7 @@ test('Split a bucket into two', function (t) {
   }
 })
 
-test('Find a bucket', function (t) {
+test('dWeb BitTorrent Tests: Find a bucket', function (t) {
   t.plan(1)
 
   var Bucket = new Buckets()
@@ -52,7 +52,7 @@ test('Find a bucket', function (t) {
   }
 })
 
-test('Insert a node', function (t) {
+test('dWeb BitTorrent Tests: Insert a node', function (t) {
   t.plan(1)
 
   var Bucket = new Buckets()
@@ -63,5 +63,3 @@ test('Insert a node', function (t) {
     t.pass('A node was inserted')
   }
 })
-
-
