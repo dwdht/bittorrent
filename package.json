@@ -1,6 +1,6 @@
 {
   "name": "@dwdht/bittorrent",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "description": "Simple, robust, BitTorrent DHT implementation for the dWeb.",
   "contributors": [
     "Jared Rice Sr. <jared@dwebs.io>",
